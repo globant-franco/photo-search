@@ -1,5 +1,10 @@
+import NavBar from "../components/nav-bar"
+
 export default function Search() {
   return (
-    <div> Search</div>
+    <main>
+      <NavBar/>
+      <div> Search</div>
+    </main>
   )
 }
